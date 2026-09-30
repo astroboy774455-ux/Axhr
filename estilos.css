@@ -1,0 +1,45 @@
+.contenedor{
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.men{
+    height: 50px;
+    background-color: rgb(90, 137, 182);
+    display: flex;
+}
+.btn{
+    flex-grow: 1;
+    text-align: center;
+    padding: 1%;
+}
+.btn>a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+.btn:hover{
+    background-color: rgb(59, 114, 104);
+}
+.banner{
+    height: 400px;
+}
+.texto{
+    height: auto;
+    padding: 5%;
+    line-height: 150%;
+}
+h1, h2{
+    text-align: center;
+}
+.foto{
+    height: 600px;
+}
+.piepag{
+    height: auto;
+    padding: 2%;
+    text-align: center;
+}
+.piepag>a>img:hover{
+    filter: blur(2px);
+}

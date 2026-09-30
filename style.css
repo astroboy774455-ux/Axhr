@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 76%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.men{
+    height: 50px;
+    background-color: rgb(90, 137, 182);
+    display: flex;
+}
+
+.btn{
+    flex-grow: 1;
+    text-align: center;
+    padding: 1%;
+}
+
+.btn>a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.btn:hover{
+    background-color: rgb(59, 114, 104);
+}
+
+.banner{
+    height: auto;
+    display: flex;
+}
+
+.banner>img{
+    width: 100%;
+    height: auto;
+}
+
+.caja{
+    height: auto;
+    display: flex;
+}
+
+.texto{
+    height: auto; /**alto**/
+    width: 50%; /**ancho**/
+    padding: 4%; /**margen interior**/
+    background-color: rgb(23, 71, 66); /**color de fondo**/
+    color: antiquewhite; /**color tipografia**/
+    border-radius: 15px; /**radio de borde*/
+    margin: 3%; /**margen externa**/
+}
+
+.foto{
+    height: auto;
+    width: 50%;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(3px 3px 5px rgb(65, 64, 64));
+}
+
+.foto>img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.piepag{
+    height: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+.piepag>a>img:hover{
+    filter: blur(2px);
+}
+
+/**EMPIEZA GALERIA**/
+
+.gale{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.gale>img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: scale-down;
+    transition: .5s ease;
+    opacity: .8;
+}
+
+.gale>img:hover{
+    width: 15%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/**CLASE HOY TODAY**/
+
+.text>h2{
+    text-align: center;
+}
+
+.text{
+    background-color: #a8dadc;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 15px;
+    color: #1d3557;
+    border: 3px solid rgb(6, 6, 6);
+    box-shadow: 2px 2px 4px gray;
+}
+
+.vid{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.vid>iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 3px solid rgb(6, 6, 6);
+    box-shadow: 2px 2px 4px gray;
+}
+
+.mapa{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.mapa>iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px gray;
+}
